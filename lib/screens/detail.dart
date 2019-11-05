@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(Detail());
 
-class MyApp extends StatelessWidget {
+class Detail extends StatelessWidget {
+  static const String routeName = '/detail';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -29,11 +30,8 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Humanity'),
-        actions: <Widget>[
-          IconButton(icon: Icon(Icons.arrow_back),
-        onPressed: () {},
-          ),
-        ],
+        leading: IconButton(icon: Icon(Icons.arrow_back), 
+        onPressed: () {Navigator.pop(context);})
           ),
       
       body: Column(

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 import './screens/HomePage.dart';
+import './screens/detail.dart';
 
 void main(){
   runApp(new MaterialApp(
@@ -8,7 +9,11 @@ void main(){
     theme: ThemeData(
       primaryColor: Colors.white,
     ),
-    home: new MyApp(),
+    initialRoute: '/',
+    routes: {
+      '/': (context) => MyApp(),
+      Detail.routeName : (context) => Detail()
+    }
   ));
 }
 
