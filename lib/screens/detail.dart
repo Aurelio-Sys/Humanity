@@ -1,22 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:humanity/screens/donasi.dart';
 
-void main() => runApp(Detail());
 
 class Detail extends StatelessWidget {
-  static const String routeName = '/detail';
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Demo Flutter',
-      theme: ThemeData( fontFamily: "Jomolhari"
-      ),
-      home: Home(),
-    );
-  }
-}
 
-class Home extends StatelessWidget {
-
+  static const String routeName = '/Detail';
   final String title = 'Panti Asuhan';
   final String location = 'Tangerang Banten';
   final String terkumpul = '0 dari 5.000.000';
@@ -29,11 +17,19 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Humanity'),
-        leading: IconButton(icon: Icon(Icons.arrow_back), 
-        onPressed: () {Navigator.pop(context);})
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
+        title: Text('Humanity',
+        style: TextStyle(
+          fontWeight: FontWeight.bold,
+          fontSize: 20,
+          color: Colors.greenAccent
+        ),),
           ),
-      
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
@@ -103,12 +99,12 @@ class Home extends StatelessWidget {
               softWrap: true,
             ),
           ),
-    
-
           Container(width: 10),
             RaisedButton(
               child: Text('Donasi Sekarang'),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.pushNamed(context, Donasi.routeName);
+              },
             ), 
         ],
       ),
