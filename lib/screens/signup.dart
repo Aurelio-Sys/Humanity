@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:humanity/login_page.dart';
+import 'package:humanity/screens/login_page.dart';
 
 
 class Signup extends StatefulWidget {
   static String tag = 'signup-page';
+  static const routeName = '/Signup';
   @override
   _SignupState createState() => _SignupState();
 }
@@ -16,7 +17,7 @@ class _SignupState extends State<Signup> {
       child: CircleAvatar(
         backgroundColor: Colors.transparent,
         radius: 70.0,
-        child: Image.asset('assets/icon_register.png',),
+        child: Image.asset('assets/images/icon_register.png',),
       ),
     );
 

@@ -50,6 +50,8 @@ flutter:
     - assets/images/charity2.png
     - assets/images/charity3.jpg
     - assets/images/rm.jpg
+    - assets/images/icon_login.png
+    - assets/images/icon_register.png
   # assets:
   #  - images/a_dot_burr.jpeg
   #  - images/a_dot_ham.jpeg

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:loader_search_bar/loader_search_bar.dart';
 import './detail.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:humanity/screens/login_view.dart';
+import 'package:humanity/screens/login_page.dart';
 
 
 

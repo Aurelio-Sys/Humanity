@@ -59,8 +59,6 @@ class _MyHomePageState extends State<MyHomePage> {
                             isDense: true,
                             onChanged: (String newValue) {
                               setState(() {
-                                var newContact;
-                                newContact.favoriteColor = newValue;
                                 _dana = newValue;
                                 state.didChange(newValue);
                               });

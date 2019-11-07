@@ -1,19 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:humanity/screens/detail.dart';
+import 'package:humanity/screens/donasi.dart';
 import 'package:splashscreen/splashscreen.dart';
 import './screens/HomePage.dart';
-import './screens/detail.dart';
+import 'package:humanity/screens/login_page.dart';
+import 'package:humanity/screens/signup.dart';
 
 void main(){
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
+    title: 'Humanity',
     theme: ThemeData(
       primaryColor: Colors.white,
+      fontFamily: 'Jomolhari'
     ),
     initialRoute: '/',
     routes: {
-      '/': (context) => MyApp(),
-      Detail.routeName : (context) => Detail()
-    }
+      '/' : (context) => MyApp(),
+      HomePage.routeName : (context) => HomePage(),
+      Detail.routeName : (context) => Detail(),
+      LoginPage.routeName : (context) => LoginPage(),
+      Signup.routeName : (context) => Signup(),
+      Donasi.routeName : (context) => Donasi()
+    },
   ));
 }
 
@@ -29,7 +38,7 @@ class MyAppState extends State<MyApp> {
     return new SplashScreen(
       seconds: 5,
       navigateAfterSeconds: new HomePage(),
-      title: new Text(this.title,
+      title: new Text(this.title,    
       style: new TextStyle(
         fontWeight: FontWeight.bold,
         fontSize: 20,
@@ -41,5 +50,6 @@ class MyAppState extends State<MyApp> {
       onClick: ()=> print('Wait a moment please'),
       loaderColor: Colors.greenAccent,
     );
+    
   }
 }
