@@ -16,7 +16,7 @@ class _KelolaDanaState extends State<KelolaDana> {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Galang Dana',
+        title: new Text('Kelola Dana',
         style: TextStyle(
           fontSize: 20,
           color: Colors.greenAccent

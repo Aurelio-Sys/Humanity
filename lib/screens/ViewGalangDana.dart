@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:humanity/screens/detail.dart';
 import 'package:humanity/screens/kelolaDana.dart';
 
 

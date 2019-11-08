@@ -102,12 +102,24 @@ class HomePageState extends State<HomePage> {
                         children: <Widget>[
                           Container(
                             padding: EdgeInsets.all(10.0),
-                            child: Text('User',
+                            child: Text('Panti Asuhan',
                             style: TextStyle(
-                              fontSize: 18.0
+                              fontSize: 18.0,
+                              fontWeight: FontWeight.bold
                             ),
                             softWrap: true,),
                           ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Container(
+                            child: Text('John',
+                            style: TextStyle(
+                              fontSize: 16.0
+                            ),
+                            softWrap: true,),
+                          )
                         ],
                       ),
                       RaisedButton(
@@ -143,12 +155,24 @@ class HomePageState extends State<HomePage> {
                         children: <Widget>[
                           Container(
                             padding: EdgeInsets.all(10.0),
-                            child: Text('User',
+                            child: Text('Panti Asuhan',
                             style: TextStyle(
-                              fontSize: 18.0
+                              fontSize: 18.0,
+                              fontWeight: FontWeight.bold
                             ),
                             softWrap: true,),
                           ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Container(
+                            child: Text('John',
+                            style: TextStyle(
+                              fontSize: 16.0
+                            ),
+                            softWrap: true,),
+                          )
                         ],
                       ),
                       RaisedButton(
@@ -184,12 +208,24 @@ class HomePageState extends State<HomePage> {
                         children: <Widget>[
                           Container(
                             padding: EdgeInsets.all(10.0),
-                            child: Text('User',
+                            child: Text('Panti Asuhan',
                             style: TextStyle(
-                              fontSize: 18.0
+                              fontSize: 18.0,
+                              fontWeight: FontWeight.bold
                             ),
                             softWrap: true,),
                           ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Container(
+                            child: Text('John',
+                            style: TextStyle(
+                              fontSize: 16.0
+                            ),
+                            softWrap: true,),
+                          )
                         ],
                       ),
                       RaisedButton(
@@ -225,12 +261,24 @@ class HomePageState extends State<HomePage> {
                         children: <Widget>[
                           Container(
                             padding: EdgeInsets.all(10.0),
-                            child: Text('User',
+                            child: Text('Panti Asuhan',
                             style: TextStyle(
-                              fontSize: 18.0
+                              fontSize: 18.0,
+                              fontWeight: FontWeight.bold
                             ),
                             softWrap: true,),
                           ),
+                        ],
+                      ),
+                      Row(
+                        children: <Widget>[
+                          Container(
+                            child: Text('John',
+                            style: TextStyle(
+                              fontSize: 16.0
+                            ),
+                            softWrap: true,),
+                          )
                         ],
                       ),
                       RaisedButton(

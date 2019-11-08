@@ -27,7 +27,7 @@ void main(){
       Signup.routeName : (context) => Signup(),
       Donasi.routeName : (context) => Donasi(),
       GalangDana.routeName : (context) => GalangDana(),
-      KelolaDana.routeName : (context) => KelolaDana()
+      KelolaDana.routeName : (context) => KelolaDana(),
     },
   ));
 }
@@ -56,6 +56,5 @@ class MyAppState extends State<MyApp> {
       onClick: ()=> print('Wait a moment please'),
       loaderColor: Colors.greenAccent,
     );
-    
   }
 }
