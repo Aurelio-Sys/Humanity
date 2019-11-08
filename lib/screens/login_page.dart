@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:humanity/screens/signup.dart';
 
 class LoginPage extends StatefulWidget {
-  static String tag = 'login-page';
+  // static String tag = 'login-page';
   static const routeName = '/LoginPage';
   @override
   _LoginPageState createState() => _LoginPageState();
@@ -11,7 +11,6 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
-
     final logo = Hero(
       tag: 'hero',
       child: CircleAvatar(
@@ -90,6 +89,14 @@ class _LoginPageState extends State<LoginPage> {
       );
 
       return Scaffold(
+        appBar: AppBar(
+          title: Text('Humanity',
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.greenAccent
+            ),
+          ),
+        ),
         backgroundColor: Colors.white,
         body: Center(
           child: ListView(

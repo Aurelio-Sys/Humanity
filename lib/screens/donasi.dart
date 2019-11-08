@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:humanity/screens/HomePage.dart';
 
 class Donasi extends StatefulWidget {
   static const routeName = '/Donasi';

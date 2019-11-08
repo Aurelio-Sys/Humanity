@@ -3,7 +3,7 @@ import 'package:humanity/screens/login_page.dart';
 
 
 class Signup extends StatefulWidget {
-  static String tag = 'signup-page';
+  // static String tag = 'signup-page';
   static const routeName = '/Signup';
   @override
   _SignupState createState() => _SignupState();
@@ -70,7 +70,7 @@ class _SignupState extends State<Signup> {
             borderRadius: BorderRadius.circular(24),
           ),
           onPressed: () {
-            Navigator.of(context).pushNamed(LoginPage.tag);
+            Navigator.of(context).pushNamed(LoginPage.routeName);
          },
          padding: EdgeInsets.all(12),
          color: Colors.green,
@@ -97,6 +97,20 @@ class _SignupState extends State<Signup> {
       );
 
       return Scaffold(
+        appBar: AppBar(
+          title: Text('Humanity',
+          style: TextStyle(
+            fontSize: 20,
+            color: Colors.greenAccent
+            ),
+          ),
+          leading: IconButton(
+            icon: Icon(Icons.arrow_back),
+            onPressed: () {
+              Navigator.pop(context);
+            },
+          ),
+        ),
         backgroundColor: Colors.white,
         body: Center(
           child: ListView(

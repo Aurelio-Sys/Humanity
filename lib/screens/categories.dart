@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:humanity/screens/HomePage.dart';
 
-    void main() => runApp(MyApp());
-
-    class MyApp extends StatelessWidget {
+    class Categories extends StatelessWidget {
       @override
       Widget build(BuildContext context) {
         return MaterialApp(
@@ -12,12 +11,11 @@ import 'package:flutter/material.dart';
             primaryColor: Colors.white,
           ),
           home: Scaffold(
-            appBar: AppBar(title: Text('Humanity / Categories')
-            ,
-            leading: IconButton(
-           icon: Icon(Icons.arrow_back),
-           onPressed: () {Navigator.pop(context);},
-         )
+            appBar: AppBar(title: Text('Humanity',
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.greenAccent
+            ),),
          ),
             body: BodyLayout(),
           ),
@@ -40,17 +38,26 @@ import 'package:flutter/material.dart';
           ),
             title: Text('Uang'),
              trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               Navigator.pushNamed(context, HomePage.routeName);
+             },
           ),
           ListTile(
              leading: CircleAvatar(backgroundImage: AssetImage('assets/images/baju.jpg'),),
             title: Text('Pakaian'),
              trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+
+             },
           ),
           ListTile(
             leading: CircleAvatar(backgroundImage: AssetImage('assets/images/buku.jpg'),
             ),
             title: Text('Buku'),
              trailing: Icon(Icons.keyboard_arrow_right),
+             onTap: () {
+               
+             },
           ),
         ],
       );

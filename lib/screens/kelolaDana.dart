@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-class GalangDana extends StatefulWidget {
-  static const routeName = '/GalangDana';
+class KelolaDana extends StatefulWidget {
+  static const routeName = '/KelolaDana';
 
   @override
-  _GalangDanaState createState() => new _GalangDanaState();
+  _KelolaDanaState createState() => new _KelolaDanaState();
 }
 
-class _GalangDanaState extends State<GalangDana> {
-  final GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
+class _KelolaDanaState extends State<KelolaDana> {
+     final GlobalKey<FormState> _formKey = new GlobalKey<FormState>();
   List _pendanaan = ['', 'dana uang', 'pakaian', 'makanan', 'buku','dll'];
   String _dana = '';
 
@@ -93,24 +92,19 @@ class _GalangDanaState extends State<GalangDana> {
               ),
               new TextFormField(
                 decoration: const InputDecoration(
-                  icon: const Icon(Icons.photo),
-                  hintText: 'Masukkan Gambar Terkait',
-                  labelText: 'Gambar',
-                ),
-              ),
-              new Container(
-                  padding: const EdgeInsets.only(left: 40.0, top: 20.0),
-                  child: new RaisedButton(
-                    child: const Text('Browse'),
-                    onPressed: null,
-                  )),
-              new TextFormField(
-                decoration: const InputDecoration(
                   icon: const Icon(Icons.description),
                   hintText: 'Masukkan Deskripsi',
                   labelText: 'Deskripsi',
                 ),
-                keyboardType: TextInputType.emailAddress,
+                keyboardType: TextInputType.text,
+              ),
+              new TextFormField(
+                decoration: const InputDecoration(
+                  icon: const Icon(Icons.attach_money),
+                  hintText: 'Masukkan jumlah dana terkumpul',
+                  labelText: 'Dana Terkumpul'
+                ),
+                keyboardType: TextInputType.number,
               ),
               new Container(
                   padding: const EdgeInsets.only(left: 230.0, right: 10.0, top: 20.0),

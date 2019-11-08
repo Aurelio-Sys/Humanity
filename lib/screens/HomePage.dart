@@ -1,9 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:loader_search_bar/loader_search_bar.dart';
-import './detail.dart';
-import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-import 'package:humanity/screens/login_page.dart';
+import 'package:humanity/screens/detail.dart';
 
 
 
@@ -20,13 +18,6 @@ class HomePageState extends State<HomePage> {
     'assets/images/charity2.png',
     'assets/images/charity3.jpg',
     'assets/images/rm.jpg',
-  ];
-
-  int _page = 0;
-
-  final _layoutPage = [
-    HomePage(),
-    LoginPage(),
   ];
 
   final CarouselSlider autoPlayImage = CarouselSlider(
@@ -62,29 +53,6 @@ class HomePageState extends State<HomePage> {
         ),
       ),
       backgroundColor: Colors.white,
-      bottomNavigationBar: CurvedNavigationBar(
-        height: 55,
-        color: Colors.grey,
-        backgroundColor: Colors.white,
-        buttonBackgroundColor: Colors.white,
-        items: <Widget>[
-          Icon(Icons.home, size: 18,color: Colors.black,),
-          Icon(Icons.book, size: 18, color: Colors.black),
-          Icon(Icons.add, size: 18,color: Colors.black,),
-          Icon(Icons.list, size: 18,color: Colors.black,),
-          Icon(Icons.account_circle, size: 18,color: Colors.black,)
-        ],
-        animationDuration: Duration(
-          milliseconds: 200
-        ),
-        animationCurve: Curves.bounceInOut,
-        onTap: (index) {
-          setState(() {
-            _page = index;
-            print('index ke $index');
-          });
-        },
-      ),
       body: ListView(
         children: <Widget>[
           Column(
@@ -134,7 +102,7 @@ class HomePageState extends State<HomePage> {
                         children: <Widget>[
                           Container(
                             padding: EdgeInsets.all(10.0),
-                            child: Text('user',
+                            child: Text('User',
                             style: TextStyle(
                               fontSize: 18.0
                             ),
@@ -280,9 +248,9 @@ class HomePageState extends State<HomePage> {
           ),
           Container(
             height: 15,
-          )
+          ),
         ],
-      )
+      ),
     );
   }
 }
