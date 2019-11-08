@@ -176,7 +176,10 @@ class DonasiState extends State<Donasi> {
               RaisedButton(
                 child: Text('Lanjutkan Pembayaran'),
                 onPressed: () {
-                  Navigator.of(context).popUntil(ModalRoute.withName(HomePage.routeName));
+                  var count = 0;
+                  Navigator.popUntil(context, (route) {
+                    return count++ == 2;
+                  });
                 },
               ),
             ],
