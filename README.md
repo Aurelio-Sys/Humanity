@@ -1,23 +1,23 @@
-# {{Humanity}} ({{ Kode Project / tugas }})
- {{ Diskripsi Project }}
+# Humanity ({{ Kode Project / tugas }})
+ Aplikasi yang mengadakan galangan dana untuk orang yang membutuhkan bantuan dana
 ### Screenshot
 {{ Letakan gambar aplikasi disini }}
 
 ### Built With
-- {{ Stateless Widget, Stateful Widget, Column, Row, SplashScreen, ListView, GridView, Card, BottomNavigationBar, FormField, DropdownMenuItem, ListTile }}
+- Stateless Widget, Stateful Widget, Column, Row, SplashScreen, ListView, GridView, Card, BottomNavigationBar, FormField, DropdownMenuItem, ListTile
 
 ### Created By
-- {{ Aurelio }}
+- Aurelio
     - SplashScreen
     - MainPage
     - HomePage
     - Donasi
     - Kelola Dana
-- {{ Jason Adrian }}
+- Jason Adrian
     - LoginPage
     - RegisterPage
     - Galang Dana
-- {{ Yonathan Kurniawan }}
+- Yonathan Kurniawan
     - Categories
     - Detail
     - ViewGalangDana
