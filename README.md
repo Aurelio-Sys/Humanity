@@ -1,7 +1,8 @@
 # Humanity ({{ Kode Project / tugas }})
  Aplikasi yang mengadakan galangan dana untuk orang yang membutuhkan bantuan dana
 ### Screenshot
-{{ Letakan gambar aplikasi disini }}
+#### 1. Splashscreen
+![alt text](https://github.com/Aurelio-Sys/Humanity/tree/master/assets/screenshots/path/to/img.png)
 
 ### Built With
 - Stateless Widget, Stateful Widget, Column, Row, SplashScreen, ListView, GridView, Card, BottomNavigationBar, FormField, DropdownMenuItem, ListTile
