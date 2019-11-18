@@ -2,7 +2,7 @@
  Aplikasi yang mengadakan galangan dana untuk orang yang membutuhkan bantuan dana
 ### Screenshot
 #### 1. Splashscreen
-![alt text](https://github.com/Aurelio-Sys/Humanity/tree/master/assets/screenshots/path/to/img.png)
+![alt text](https://github.com/Aurelio-Sys/Humanity/tree/master/assets/screenshots/Splashscreen.jpeg)
 
 ### Built With
 - Stateless Widget, Stateful Widget, Column, Row, SplashScreen, ListView, GridView, Card, BottomNavigationBar, FormField, DropdownMenuItem, ListTile
