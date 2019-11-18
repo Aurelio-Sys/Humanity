@@ -3,6 +3,24 @@
 ### Screenshot
 #### 1. Splashscreen
 ![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Splashscreen.jpeg)
+#### 2. Homepage
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Homepage.jpeg)
+#### 3. Detail
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Detail.jpeg)
+#### 4. Donasi Sekarang
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Donasi%20Sekarang.jpeg)
+#### 5. Login
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Login.jpeg)
+#### 6. Signup
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/SignUp.jpeg)
+#### 7. Buat Galang Dana
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Buat%20Galang%20Dana.jpeg)
+#### 8. Kelola Penggalangan Dana
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Kelola%20Penggalangan%20Dana.jpeg)
+#### 9. Galang Dana
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Galang%20Dana.jpeg)
+#### 10. Kategori
+![alt text](https://github.com/Aurelio-Sys/Humanity/blob/master/assets/screenshots/Kategori.jpeg)
 
 ### Built With
 - Stateless Widget, Stateful Widget, Column, Row, SplashScreen, ListView, GridView, Card, BottomNavigationBar, FormField, DropdownMenuItem, ListTile
