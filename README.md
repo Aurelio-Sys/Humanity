@@ -1,4 +1,4 @@
-# Humanity ({{ Kode Project / tugas }})
+# Humanity ({{ UTS Pemrograman Mobile / tugas }})
  Aplikasi yang mengadakan galangan dana untuk orang yang membutuhkan bantuan dana
 ### Screenshot
 #### 1. Splashscreen
