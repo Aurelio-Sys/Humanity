@@ -33,38 +33,38 @@ class ListGalangDana extends StatefulWidget {
  class _ListGalangDana extends State<ListGalangDana> {
    final List_item = [
      {
-       "nama" : "panti asuhan",
+       "nama" : "panti asuhan A",
        "creator" : "Nat",
-       "pic" : "assets/images/baju.jpg",
+       "pic" : "assets/images/panti2.jpg",
      },
      {
        "nama" : "Panti Asuhan B",
-       "creator" : "Nut",
-       "pic" : "assets/images/buku.jpg",
+       "creator" : "Nat",
+       "pic" : "assets/images/panti3.jpg",
      },
      {
        "nama" : "panti asuhan C",
-       "creator" : "Net",
-       "pic" : "assets/images/buku2.jpg",
+       "creator" : "Nat",
+       "pic" : "assets/images/panti4.jpg",
      },
      {
        "nama" : "panti asuhan D",
-       "creator" : "Not",
-       "pic" : "assets/images/rm.jpg",
+       "creator" : "Nat",
+       "pic" : "assets/images/panti5.jpg",
      },
      {
-       "nama" : "panti asuhan E",
-       "creator" : "Aryo",
-       "pic" : "assets/images/uang.jpg",
+       "nama" : "Bencana A",
+       "creator" : "Nat",
+       "pic" : "assets/images/dis1.jpg",
      },
      {
-       "nama" : "panti asuhan F",
-       "creator" : "Bimo",
-       "pic" : "assets/images/panti.jpg",
+       "nama" : "Bencana B",
+       "creator" : "Nat",
+       "pic" : "assets/images/dis2.jpg",
      },
      {
        "nama" : "panti asuhan G",
-       "creator" : "Bima",
+       "creator" : "Nat",
        "pic" : "assets/images/pantia.jpg",
      },
    ];
@@ -104,7 +104,7 @@ class Keterangan extends StatelessWidget {
              footer: Container(
                color: Colors.grey,
                child: ListTile(
-                 leading: Text(nama,style: TextStyle(color: Colors.orange),),
+                 leading: Text(nama,style: TextStyle(color: Colors.lightBlue),),
                  title: Text('$penggalang',style: TextStyle(color: Colors.white,),),
                  onTap: () {
                    Navigator.of(context).pushNamed(KelolaDana.routeName);

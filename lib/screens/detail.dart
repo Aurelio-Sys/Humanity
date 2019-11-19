@@ -34,7 +34,7 @@ class Detail extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Image.asset(
-            'assets/images/rm.jpg',
+            'assets/images/panti.jpg',
             height: 250.0,
             width: 412.0,
             fit: BoxFit.fill,
