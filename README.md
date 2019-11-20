@@ -31,7 +31,7 @@
     - MainPage (5)
     - HomePage (5)
     - Donasi (10)
-    - Kelola Dana (10)
+    - Kelola Dana (5)
 - Jason Adrian
     - LoginPage (5)
     - RegisterPage (5)
@@ -41,7 +41,7 @@
     - Detail (5)
     - ViewGalangDana (10)
     
-    Total Nilai = (75)
+    Total Nilai = (70)
 ---
 ### Mata Kuliah 
 COE-5109 Pemprograman Mobile. 
