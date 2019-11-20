@@ -27,19 +27,21 @@
 
 ### Created By
 - Aurelio
-    - SplashScreen
-    - MainPage
-    - HomePage
-    - Donasi
-    - Kelola Dana
+    - SplashScreen (5)
+    - MainPage (10)
+    - HomePage (5)
+    - Donasi (10)
+    - Kelola Dana (10)
 - Jason Adrian
-    - LoginPage
-    - RegisterPage
-    - Galang Dana
+    - LoginPage (5)
+    - RegisterPage (5)
+    - Galang Dana (10)
 - Yonathan Kurniawan
-    - Categories
-    - Detail
-    - ViewGalangDana
+    - Categories (5)
+    - Detail (10)
+    - ViewGalangDana (10)
+    
+    Total Nilai = (85)
 ---
 ### Mata Kuliah 
 COE-5109 Pemprograman Mobile. 
